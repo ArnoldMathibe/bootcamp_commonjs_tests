@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnold's Test's</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+</head>
+<body>
+    <h1>Welcome To Bootcamp's Test Driven Development</h1>
+    <div id="mocha"></div>
+    <script>
+        // the mocha test style to use - we use BDD - Behviour Driven Development
+        mocha.setup('bdd');
+        //ensure the assert function is available
+        var assert = chai.assert;
+    </script>
+    <!-- the function to be tested -->
+    <script src="greet.js" charset="utf-8"></script>
+    <!-- followed by the tests -->
+    <script src="test/greet.test.js" charset="utf-8"></script>
+    
+    <script src="isFromBellville.js"></script>
+    <script src="test/isFromBellville.test.js"></script>
+
+    <script src="regCheck.js"></script>
+    <script src="test/regCheck.test.js"></script>
+
+    <script src="countRegNumber.js"></script>
+    <script src="test/countRegNumber.test.js"></script>
+
+    <script src="isWeekday.js"></script>
+    <script src="test/isWeekday.test.js"></script>
+
+    <script src="yearsAgo.js"></script>
+    <script src="test/yearsAgo.test.js"></script>
+
+    <script src="countAllPaarl.js"></script>
+    <script src="test/countAllPaarl.test.js"></script>
+
+    <script src="countAllFromTown.js"></script>
+    <script src="test/countAllFromTown.test.js"></script>
+
+    <script src="fromWhere.js"></script>
+    <script src="test/fromWhere.test.js"></script>
+
+    <script src="totalPhoneBill.js"></script>
+    <script src="test/totalPhoneBill.test.js"></script>
+
+    <script src="transportFee.js"></script>
+    <script src="test/transportFee.test.js"></script>
+
+    <script src="findItemsOver.js"></script>
+    <script src="test/findItemsOver.test.js"></script>
+
+    <script src="findItemsOver20.js"></script>
+    <script src="test/findItemsOver20.test.js"></script>
+
+    <script src="mostProfitableDepartment.js"></script>
+    <script src="test/mostProfitableDepartment.test.js"></script>
+    
+    <script>
+        //configure and run mocha 
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
+</body>
+</html>
