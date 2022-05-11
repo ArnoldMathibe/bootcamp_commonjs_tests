@@ -19,5 +19,4 @@ function mostProfitableDepartment(salesData){
       }
     }
     return (profitableDep);
-   // console.log("Most profitable department is "+ profitableDep +" for dataset 1:")
-  }
+}
