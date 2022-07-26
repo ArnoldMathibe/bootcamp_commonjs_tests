@@ -2,22 +2,37 @@
   "name": "bootcamp_terminal_tests",
   "version": "1.0.0",
   "description": "",
-  "main": "countAllFromTown.js",
-  "directories": {
-    "test": "mocha"
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArnoldMathibe/bootcamp-tests.git"
+    "url": ""
   },
+  "bugs": "",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ArnoldMathibe/bootcamp-tests/issues"
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
   },
-  "homepage": "https://github.com/ArnoldMathibe/bootcamp-tests#readme"
+  "contributors": [
+
+  ],
+  "scripts": {
+    "dev": "",
+    "test": "mocha"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
 }
