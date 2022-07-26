@@ -1,3 +1,6 @@
+import assert from "assert";
+import findItemsOver from "../findItemsOver.js";
+
 describe("Expensive Items", function(){
     it("Should Return Products With Quantity Over Threshold", function(){
         var itemList = [

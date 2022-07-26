@@ -1,4 +1,4 @@
-function isFromBellville(vehicle)
+export default function isFromBellville(vehicle)
 {
     return vehicle.startsWith("CY");
 }

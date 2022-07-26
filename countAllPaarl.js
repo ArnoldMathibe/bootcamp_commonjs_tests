@@ -1,4 +1,4 @@
-function countAllPaarl(regNumbers)
+export default function countAllPaarl(regNumbers)
 {
     let regNum = regNumbers.split(',');
     var counter = [];

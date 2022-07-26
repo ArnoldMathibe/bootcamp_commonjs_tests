@@ -1,3 +1,6 @@
+import assert from "assert";
+import fromWhere from "../fromWhere.js";
+
 describe('From Where Exactly', function(){
     it('Should Take In A Car Registration and Return Bellville', function(){
         assert.equal(fromWhere('CY'), 'Bellville');

@@ -1,4 +1,4 @@
-var totalPhoneBill = function(bills)
+export default function totalPhoneBill(bills)
 {
     var call = 0;
     var sms = 0;

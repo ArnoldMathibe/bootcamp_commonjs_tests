@@ -1,3 +1,5 @@
+import assert from "assert";
+import findItemsOver20 from "../findItemsOver20";
 describe("Expensive Items", function(){
     it("Should Return Quantity Over 20", function(){
         var itemList = [

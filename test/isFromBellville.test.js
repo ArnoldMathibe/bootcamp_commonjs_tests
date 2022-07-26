@@ -1,3 +1,6 @@
+import assert from "assert";
+import isFromBellville from "../isFromBellville.js";
+
 describe('Vehicle Registration Numbers', function(){
     it("Should Return True If Registration Is From Bellville", function(){
         assert.equal(isFromBellville("CY 456"), true);

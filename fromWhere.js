@@ -1,4 +1,4 @@
-var fromWhere = function(carReg)
+export default function fromWhere(carReg)
 {
     if(carReg.startsWith('CY'))
     {

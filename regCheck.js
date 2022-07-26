@@ -1,4 +1,4 @@
-function regCheck(regNum, loc)
+export default function regCheck(regNum, loc)
 {
     return regNum.endsWith(loc);
 }

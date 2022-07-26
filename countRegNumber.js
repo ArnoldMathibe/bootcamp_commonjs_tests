@@ -1,4 +1,4 @@
-function countRegNumber(regCount)
+export default function countRegNumber(regCount)
 {
     var countReg = regCount.split(',');
     if (regCount == "") {

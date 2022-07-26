@@ -1,3 +1,6 @@
+import assert from "assert";
+import transportFee from "../transportFee.js";
+
 describe("Which Shift", function(){
     it("Should Return R20 For Morning Shift", function(){
         assert.equal(transportFee('Morning'), 'R20');

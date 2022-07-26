@@ -1,4 +1,4 @@
-function isWeekday(weekDay)
+export default function isWeekday(weekDay)
 {
     if(weekDay.startsWith("S"))
     {

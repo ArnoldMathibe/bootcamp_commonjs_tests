@@ -1,4 +1,4 @@
-var transportFee = function(shift)
+export default function transportFee(shift)
 {
   if(shift == 'Morning')
   {

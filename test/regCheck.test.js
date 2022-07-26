@@ -1,3 +1,6 @@
+import assert from "assert";
+import regCheck from "../regCheck.js";
+
 describe("One Function That Checks Many", function(){
     it("Check If The Registration Number Is From Gauteng", function(){
         assert.equal(regCheck("17 ZZ 77 GP", "GP"), true);

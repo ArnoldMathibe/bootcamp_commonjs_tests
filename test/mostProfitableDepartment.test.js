@@ -1,3 +1,6 @@
+import assert from "assert";
+import mostProfitableDepartment from "../mostProfitableDepartment.js";
+
 describe("Shop Departments", function(){
     it("Should Return Outdoor As Most Profitable Department", function(){
         var salesData = [
