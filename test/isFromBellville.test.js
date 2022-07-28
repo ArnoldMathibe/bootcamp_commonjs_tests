@@ -8,4 +8,7 @@ describe('Vehicle Registration Numbers', function(){
     it("Should Return False iF Registration Is Not From Bellville", function(){
         assert.equal(isFromBellville("CJ 876"), false);
     });
+    it("Should Return False iF Registration Is Not From Bellville", function(){
+        assert.equal(isFromBellville("CF 876"), false);
+    });
 });

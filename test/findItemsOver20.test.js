@@ -1,7 +1,7 @@
 import assert from "assert";
 import findItemsOver20 from "../findItemsOver20.js";
 describe("Expensive Items", function(){
-    it("Should Return Quantity Over 20", function(){
+    it("Should Return Quantity That Has Over 20 Values", function(){
         var itemList = [
             {name : 'apples', qty : 10},
             {name : 'pears', qty : 37},
@@ -15,7 +15,7 @@ describe("Expensive Items", function(){
         ];
         assert.deepEqual(results, findItemsOver20(itemList));
     });
-    it("Should Return Quantity Over 20", function(){
+    it("Should Return Quantity That Has Over 20 Values", function(){
         var itemList2 = [
             {name : 'apples', qty : 10},
             {name : 'pears', qty : 29},
@@ -28,7 +28,7 @@ describe("Expensive Items", function(){
         
         assert.deepEqual(results2, findItemsOver20(itemList2));
     });
-    it("Should Return Quantity Over 20", function(){
+    it("Should Return Quantity That Has Over 20 Values", function(){
         var itemList3 = [
             {name : 'apples', qty : 40},
             {name : 'pears', qty : 20},

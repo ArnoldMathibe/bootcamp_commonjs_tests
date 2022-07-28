@@ -8,4 +8,7 @@ describe("One Function That Checks Many", function(){
     it("Should Check if The Registration Number Is Not From Gauteng", function(){
         assert.equal(regCheck("003 DRM MP", "GP"), false);
     });
+    it("Check If The Registration Number Is From Gauteng", function(){
+        assert.equal(regCheck("45 AK 77 GP", "GP"), true);
+    });
 });

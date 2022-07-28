@@ -11,4 +11,8 @@ describe('String Parameters and Concatenation', function()
     {
         assert.equal(greet(''), "Hello, My Friend");
     });
+    it("Should Greet Arnold", function()
+    {
+        assert.equal(greet('Arnold'), "Hello,Arnold");
+    });
 })
