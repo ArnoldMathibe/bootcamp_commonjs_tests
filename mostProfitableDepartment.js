@@ -1,4 +1,4 @@
-export default function mostProfitableDepartment(salesData){
+module.exports = function mostProfitableDepartment(salesData){
     var HighestDep = 0;
     var depSales = {};
     var profitableDep;

@@ -1,5 +1,5 @@
-import assert from "assert";
-import mostProfitableDepartment from "../mostProfitableDepartment.js";
+var assert = require("assert");
+var mostProfitableDepartment = require("../mostProfitableDepartment.js");
 
 describe("Shop Departments", function(){
     it("Should Return Outdoor As Most Profitable Department", function(){

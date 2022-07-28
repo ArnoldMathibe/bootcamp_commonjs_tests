@@ -1,5 +1,5 @@
-import assert from "assert";
-import fromWhere from "../fromWhere.js";
+var assert = require("assert");
+var fromWhere = require("../fromWhere.js");
 
 describe('From Where Exactly', function(){
     it('Should Take In A Car Registration and Return Bellville', function(){

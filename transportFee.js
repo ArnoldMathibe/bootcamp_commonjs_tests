@@ -1,4 +1,4 @@
-export default function transportFee(shift)
+module.exports = function transportFee(shift)
 {
   if(shift == 'Morning')
   {

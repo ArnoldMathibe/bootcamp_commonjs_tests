@@ -1,5 +1,5 @@
-import assert from "assert";
-import countAllFromTown from "../countAllFromTown.js";
+var assert = require("assert");
+var countAllFromTown = require("../countAllFromTown.js");
 
 describe('Count How Many From Town', function(){
     it('Take In Registration Numbers, And Count All From Stellies', function(){

@@ -1,4 +1,4 @@
-export default function findItemsOver20(items){
+module.exports = function findItemsOver20(items){
     var over20 = [];
     for(var i = 0; i < items.length; i++){
       if(items[i].qty > 20){

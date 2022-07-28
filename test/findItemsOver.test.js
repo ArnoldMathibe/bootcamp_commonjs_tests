@@ -1,5 +1,5 @@
-import assert from "assert";
-import findItemsOver from "../findItemsOver.js";
+var assert = require("assert");
+var findItemsOver = require("../findItemsOver.js");
 
 describe("Expensive Items", function(){
     it("Should Return Products With Quantity Over Threshold", function(){

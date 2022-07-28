@@ -1,5 +1,5 @@
-import assert from "assert";
-import greet from "../greet.js";
+var assert = require("assert");
+var greet = require("../greet.js");
 
 describe('String Parameters and Concatenation', function()
 {

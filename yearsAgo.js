@@ -1,4 +1,4 @@
-export default function yearsAgo(howManyYearsAgo)
+module.exports = function yearsAgo(howManyYearsAgo)
 {
     var ago;
     var thisYear = new Date().getFullYear();

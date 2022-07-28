@@ -1,4 +1,4 @@
-export default function isWeekday(weekDay)
+module.exports = function isWeekday(weekDay)
 {
     if(weekDay.startsWith("S"))
     {

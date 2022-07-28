@@ -1,5 +1,5 @@
-import assert from "assert";
-import yearsAgo from "../yearsAgo.js";
+var assert = require("assert");
+var yearsAgo = require("../yearsAgo.js");
 
 describe('How Many Years Ago', function(){
     it('Should Take In A Year, And Determine How Long Ago It Was', function(){

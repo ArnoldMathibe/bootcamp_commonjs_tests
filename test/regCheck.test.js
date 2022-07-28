@@ -1,5 +1,5 @@
-import assert from "assert";
-import regCheck from "../regCheck.js";
+var assert = require("assert");
+var regCheck = require("../regCheck.js");
 
 describe("One Function That Checks Many", function(){
     it("Check If The Registration Number Is From Gauteng", function(){

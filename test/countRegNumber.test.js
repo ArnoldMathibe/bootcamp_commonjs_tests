@@ -1,5 +1,5 @@
-import assert from "assert";
-import countRegNumber from "../countRegNumber.js";
+var assert = require("assert");
+var countRegNumber = require("../countRegNumber.js");
 
 describe("From a String To a List", function(){
     it("Count Total Of Registrations In Inserted", function(){

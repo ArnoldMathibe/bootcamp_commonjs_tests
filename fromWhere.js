@@ -1,4 +1,4 @@
-export default function fromWhere(carReg)
+module.exports = function fromWhere(carReg)
 {
     if(carReg.startsWith('CY'))
     {
