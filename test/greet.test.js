@@ -13,6 +13,6 @@ describe('String Parameters and Concatenation', function()
     });
     it("Should Greet Arnold", function()
     {
-        assert.equal(greet('Arnold'), "Hello,Arnold");
+        assert.equal(greet('Arnold'), "Hello, Arnold");
     });
 })
