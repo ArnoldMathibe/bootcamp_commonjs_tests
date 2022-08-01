@@ -29,19 +29,14 @@ describe("Expensive Items", function(){
         
         assert.deepEqual(results2, findItemsOver20(itemList2));
     });
-    it("Should Return Quantity That Has Over 20 Values", function(){
+    it("Should Return Empty Array if There Is No Quantity Over 20", function(){
         var itemList3 = [
-            {name : 'apples', qty : 40},
+            {name : 'apples', qty : 20},
             {name : 'pears', qty : 20},
-            {name : 'bananas', qty : 23},
-            {name : 'apples', qty : 37}
+            {name : 'bananas', qty : 13},
+            {name : 'apples', qty : 17}
         ];
         
-        var results3 = [
-            {name : 'apples', qty : 40},
-            {name : 'bananas', qty : 23},
-            {name : 'apples', qty : 37}
-        ];
-        assert.deepEqual(results3, findItemsOver20(itemList3));
+        assert.deepEqual([], findItemsOver20(itemList3));
     });
 });
